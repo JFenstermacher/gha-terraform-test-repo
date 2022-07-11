@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action
         id: hello
-        uses: JFenstermacher/terraform-docker-action
+        uses: JFenstermacher/terraform-docker-action@master
         with:
           who-to-greet: 'Mona the Octocat'
       - name: Get the output time
